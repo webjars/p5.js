@@ -10,7 +10,7 @@
 
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
-    <artifactId>p5js</artifactId>
+    <artifactId>p5.js</artifactId>
     <version>0.3.9-SNAPSHOT</version>
     <name>p5.js</name>
     <description>WebJar for P5.js</description>
@@ -25,9 +25,9 @@
     </licenses>
 
     <scm>
-        <url>http://github.com/webjars/p5js</url>
-        <connection>scm:git:https://github.com/webjars/p5js.git</connection>
-        <developerConnection>scm:git:https://github.com/webjars/p5js.git</developerConnection>
+        <url>http://github.com/webjars/p5.js</url>
+        <connection>scm:git:https://github.com/webjars/p5.js.git</connection>
+        <developerConnection>scm:git:https://github.com/webjars/p5.js.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
@@ -47,7 +47,7 @@
         <requirejs>
             {
                 "paths": {
-                    "p5js": "p5.js"
+                    "p5js": "p5"
                 }
             }
         </requirejs>
